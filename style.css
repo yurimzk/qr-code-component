@@ -18,7 +18,7 @@ body {
     height: 100vh;
     display: grid;
     place-content: center;
-    font: 1.5rem;
+    font-size: 1.5rem;
     background-color: var(--light-gray);
 }
 
@@ -51,6 +51,10 @@ h1 {
 p {
     margin: 1.6rem 0;
     color: var(--grayish-blue);
-    font-size: 1.5rem;
 }
 
+@media (min-width: 1440px) {
+    #app {
+        margin: 0 56.0rem;
+    }
+}
